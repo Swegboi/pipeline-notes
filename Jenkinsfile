@@ -1,5 +1,5 @@
 pipeline {
-    agent {
+    agent docker {
         node {
             label 'docker-jenkins-python'
         }
